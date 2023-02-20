@@ -37,25 +37,29 @@ const LoginPage = () => {
         }
     }
 
+    console.log("isValid...", isValid)
     return (
         <div className='login d-flex justify-content-center align-items-center flex-column text'>
             <span className="title-login px-2 mb-4">Câu hỏi đáp</span>
             <form onSubmit={handleSubmit(onSubmit)} className="form-login">
-                <h3 className="heading-login fw-bold">
+                <h3 className="heading-login fw-bold text-center mb-4">
                     Đăng nhập tài khoản
                 </h3>
-                <label htmlFor="password">
+                <label htmlFor="password" className="password-label mb-2">
                     Mật khẩu
                 </label>
                 <input
+                    id="password"
+                    className="password-input"
                     type="password"
-                    placeholder="*******"
+                    placeholder="**********"
                     {...register('password')}
                     control={control}
-                    id="password" />
+                    autoFocus
+                />
                 {errors.password && <span className="text-danger">Mật khẩu không được để trống!</span>}
                 {error && <span className="text-danger">{error}</span>}
-                <button className="button-login" type="submit" disabled={!isDirty || !isValid} >{isLoading ? <span>Đang đăng nhập...</span> : "Đăng nhập"}</button>
+                <button className="button-login mt-4" type="submit" disabled={!isDirty || !isValid} >{isLoading ? <span>Đang đăng nhập...</span> : "Đăng nhập"}</button>
             </form>
         </div>
     )
