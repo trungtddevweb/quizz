@@ -1,0 +1,15 @@
+.image-layout {
+    position: absolute;
+
+    &.top {
+        top: 0;
+    }
+
+    &.right {
+        right: 0;
+    }
+
+    &.bottom {
+        bottom: 0;
+    }
+}
