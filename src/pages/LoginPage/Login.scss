@@ -18,8 +18,6 @@
     width: 384px;
     display: flex;
     flex-direction: column;
-    // align-items: center;
-    // justify-content: c;
 }
 
 .heading-login {
@@ -53,4 +51,11 @@
     border-radius: 4px;
     color: white;
     background-color: rgba(105, 81, 255, 1);
+}
+
+// Responsive
+@media only screen and (max-width: 480px) {
+    .form-login {
+        padding: 0 16px;
+    }
 }
