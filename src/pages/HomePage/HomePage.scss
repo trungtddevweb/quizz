@@ -1,0 +1,17 @@
+.btn-home {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .homePage {
+        margin-top: 80px;
+    }
+
+    .btn-home {}
+}
