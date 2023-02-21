@@ -1,8 +1,9 @@
-import React from 'react'
+import { data } from '../../data/allData'
 
 const HomePage = () => {
+    console.log("data", data)
     return (
-        <div>HomePage</div>
+        <div></div>
     )
 }
 

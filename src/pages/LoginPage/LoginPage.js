@@ -1,15 +1,18 @@
-import { useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import axios from 'axios'
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
 import { useNavigate } from "react-router-dom"
 import "./Login.scss"
+import { UserContext } from "../../context/context"
 
 const LoginPage = () => {
     const [error, setError] = useState(null)
     const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate()
+    const { login, user } = useContext(UserContext)
+
     const schema = yup.object().shape({
         password: yup.string(),
     })
@@ -25,19 +28,22 @@ const LoginPage = () => {
     })
 
     const onSubmit = async (data) => {
+        setIsLoading(true)
         try {
-            setIsLoading(true)
-            const res = await axios.post('https://btkss.onrender.com/api/auth/login', data)
-            if (res) {
-                return navigate('/')
-            }
+            await login(data)
+            setIsLoading(false)
+            navigate('/')
         } catch (error) {
             setIsLoading(false)
             setError(error.response.data.message)
         }
     }
 
-    console.log("isValid...", isValid)
+    useEffect(() => {
+        if (user) return navigate('/')
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [user])
+
     return (
         <div className='login d-flex justify-content-center align-items-center flex-column text'>
             <span className="title-login px-2 mb-4">Câu hỏi đáp</span>

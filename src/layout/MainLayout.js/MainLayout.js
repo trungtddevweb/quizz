@@ -1,14 +1,22 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
 import topLeft from '../../assets/images/img-top-left.svg'
 import topRight from '../../assets/images/top-right.svg'
 import BottomLeft from '../../assets/images/bottom-left.svg'
 import BottomRight from '../../assets/images/bottom-right.svg'
 import './MainLayout.scss'
-
+import { useContext, useEffect } from 'react'
+import { UserContext } from '../../context/context'
 
 const MainLayout = () => {
+    const { user } = useContext(UserContext)
+    const navigate = useNavigate()
+    useEffect(() => {
+        if (user === null) return navigate('/login')
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [user])
+
     return (
-        <div className="main">
+        <div className="masin">
             <div className="header w-100%">
                 <div className='w-100'>
                     <img className='image-layout left' src={topLeft} alt="" />
