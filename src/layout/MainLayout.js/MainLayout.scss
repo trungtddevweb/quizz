@@ -17,6 +17,7 @@
 @media only screen and (max-width: 480px) {
     .image-layout {
         width: 30%;
+        position: relative;
 
         &.right {
             padding: 0px !important;
@@ -25,5 +26,11 @@
         &.bottom {
             padding: 0px !important
         }
+    }
+
+    .header,
+    .footer {
+        display: flex;
+        justify-content: space-between;
     }
 }

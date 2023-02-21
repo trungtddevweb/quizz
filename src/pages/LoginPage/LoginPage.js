@@ -1,5 +1,4 @@
-import { useContext, useEffect, useState } from "react"
-import axios from 'axios'
+import { useContext, useLayoutEffect, useState } from "react"
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
@@ -39,7 +38,7 @@ const LoginPage = () => {
         }
     }
 
-    useEffect(() => {
+    useLayoutEffect(() => {
         if (user) return navigate('/')
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [user])

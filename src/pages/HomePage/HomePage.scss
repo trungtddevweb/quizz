@@ -1,3 +1,60 @@
+.homePage {
+    width: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    flex-wrap: wrap;
+}
+
+.list-item {
+    padding: 50px 60px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+
+    .lightGreen {
+        background-color: rgba(42, 209, 103, )
+    }
+
+    .green {
+        background-color: rgb(16 185 129);
+    }
+
+    .lime {
+        background-color: rgb(132 204 22);
+    }
+
+    .indigo {
+        background-color: rgba(105, 81, 255, 1);
+    }
+
+    .violet {
+        background-color: rgba(168, 85, 247, 1);
+
+    }
+
+    .rose {
+        background-color: rgb(244 63 94);
+    }
+
+    .steal {
+        background-color: rgb(20 184 166);
+    }
+}
+
+
+.wrapper-number {
+    width: max-content;
+    padding: 16px 22px;
+    border-radius: 50%;
+    background: #1d73e2;
+    font-weight: 600;
+    color: #fff;
+}
+
 .btn-home {
     padding: 8px 16px;
     border: none;
@@ -7,11 +64,24 @@
     font-weight: 500;
 }
 
+.btn-list-question {
+    border: none;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 130, 246, 1);
+    border-radius: 4px;
+
+}
+
 
 @media only screen and (max-width: 480px) {
     .homePage {
         margin-top: 80px;
     }
 
-    .btn-home {}
+    .list {
+        align-items: center;
+        justify-content: center;
+    }
+
 }
