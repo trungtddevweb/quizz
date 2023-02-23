@@ -1,5 +1,6 @@
 .detail-questions {
-    width: 880px;
+    width: var(--main-width);
+    padding: 0 10px;
 }
 
 .totalQuestion {
@@ -25,5 +26,13 @@
 .label-questions {
     font-weight: 500;
     font-size: 18px;
-    color: gray;
+    color: rgb(102, 100, 100);
+}
+
+
+@media only screen and (max-width: 480px) {
+    .submit-questions {
+        width: 100%;
+    }
+
 }

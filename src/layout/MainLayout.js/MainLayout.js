@@ -12,7 +12,9 @@ const MainLayout = () => {
     const navigate = useNavigate()
 
     useLayoutEffect(() => {
-        if (user === null) return navigate('/login')
+        if (user === null || !user) {
+            return navigate('/login')
+        }
     }, [user, navigate])
 
     return (
@@ -21,7 +23,7 @@ const MainLayout = () => {
                 <img className='image-layout left' src={topLeft} alt="" />
                 <img className='image-layout right p-4' src={topRight} alt="" />
             </div>
-            <div className="d-flex align-items-center justify-content-center"><Outlet /></div >
+            <div className="main d-flex  justify-content-center"><Outlet /></div >
             <div className='footer'>
                 <img className='image-layout bottom p-4' src={BottomLeft} alt="" />
                 <img className='image-layout bottom right' src={BottomRight} alt="" />
