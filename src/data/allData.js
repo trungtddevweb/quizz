@@ -8,18 +8,19 @@ export const data = {
                 questionText: "Bản thiết kế sự sống được giấu ở đâu?",
                 answers: [
                     { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
+                    { answerText: "B. Kinh Thánh", isCorrect: true },
+                    { answerText: "C. Kinh Dịch", isCorrect: false },
                     { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
                 ],
             },
             {
                 id: 2,
+                questionText: "Đức Chúa Trời đã khóa sự mầu nhiệm bản thiết kế sự sống bằng gì?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Lời ví dụ", isCorrect: true },
+                    { answerText: "B. Ổ khóa và chìa khóa", isCorrect: true },
+                    { answerText: "C. Sách thế gian", isCorrect: false },
+                    { answerText: "D. Không khóa", isCorrect: false }
                 ],
             }
         ]

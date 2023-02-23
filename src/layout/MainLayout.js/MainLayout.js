@@ -4,16 +4,17 @@ import topRight from '../../assets/images/top-right.svg'
 import BottomLeft from '../../assets/images/bottom-left.svg'
 import BottomRight from '../../assets/images/bottom-right.svg'
 import './MainLayout.scss'
-import { useContext, useLayoutEffect } from 'react'
+import { useContext, useLayoutEffect, useEffect } from 'react'
 import { UserContext } from '../../context/context'
 
 const MainLayout = () => {
     const { user } = useContext(UserContext)
     const navigate = useNavigate()
-    useLayoutEffect(() => {
+
+    useEffect(() => {
         if (user === null) return navigate('/login')
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [user])
+    }, [user, navigate])
+    console.log("user", user)
 
     return (
         <>
