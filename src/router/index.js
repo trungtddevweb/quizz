@@ -3,8 +3,9 @@ import MainLayout from "../layout/MainLayout.js/MainLayout";
 import HomePage from '../pages/HomePage'
 import ErrorPage from '../pages/ErrorPage'
 import LoginPage from '../pages/LoginPage'
-import ListQuestionPage from "../pages/ListQuestionPage";
-import DetailQuestions from "../pages/DetailQuestions";
+import ListQuestionPage from '../pages/ListQuestionPage'
+import DetailQuestions from "../pages/DetailQuestions/DetailQuestions";
+
 
 export default createBrowserRouter([
     {
@@ -24,7 +25,7 @@ export default createBrowserRouter([
                 element: <ListQuestionPage />,
             },
             {
-                path: '/list-questions/:questionId/:detailQuestionId',
+                path: '/detail-questions/:questionId/:index',
                 element: <DetailQuestions />,
             },
 

@@ -1,0 +1,29 @@
+.detail-questions {
+    width: 880px;
+}
+
+.totalQuestion {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(85, 84, 84);
+}
+
+.bottom-detail-question {
+    padding: 20px;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    }
+
+}
+
+.choose-input {
+    transform: scale(1.2);
+    margin: 0 10px 0 20px;
+}
+
+.label-questions {
+    font-weight: 500;
+    font-size: 18px;
+    color: gray;
+}
