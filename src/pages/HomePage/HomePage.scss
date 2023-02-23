@@ -75,13 +75,14 @@
 
 
 @media only screen and (max-width: 480px) {
-    .homePage {
-        margin-top: 80px;
-    }
-
     .list {
         align-items: center;
         justify-content: center;
+    }
+
+    .list-item {
+        padding: 50px 80px;
+
     }
 
 }
