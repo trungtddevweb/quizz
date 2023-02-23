@@ -3,8 +3,13 @@ import Header from '../../components/Header/Header'
 import { tilteListQuestions } from '../../data/allData'
 import './HomePage.scss'
 import classnames from 'classnames'
+import { useLayoutEffect } from 'react'
 
 const HomePage = () => {
+    // useLayoutEffect(() => {
+
+    // })
+
     return (
         <div className="homePage">
             <Header />
