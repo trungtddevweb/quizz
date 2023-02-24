@@ -12,7 +12,7 @@ const MainLayout = () => {
     const navigate = useNavigate()
 
     useLayoutEffect(() => {
-        if (user === null || !user) {
+        if (user === null) {
             return navigate('/login')
         }
     }, [user, navigate])

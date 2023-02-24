@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom"
 import Header from "../../components/Header"
 import ListQuestions from "../../components/ListQuestions/ListQuestions"
 import { shortTitleListQuestions } from "../../data/allData"
-import './ListQuestionPage.scss'
 import NavLink from "../../components/NavLink"
 
 

@@ -1,20 +1,10 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Header from '../../components/Header/Header'
 import { tilteListQuestions } from '../../data/allData'
 import './HomePage.scss'
 import classnames from 'classnames'
-import { useContext, useLayoutEffect } from 'react'
-import { UserContext } from '../../context/context'
 
 const HomePage = () => {
-    const { user } = useContext(UserContext)
-    const navigate = useNavigate()
-
-    useLayoutEffect(() => {
-        if (!user) return navigate('/login')
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [user])
-
     return (
         <div className="homePage">
             <Header />

@@ -504,22 +504,124 @@ export const data = {
         title: "2.2",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.25,
+                questionText: "Câu 1. Kinh Thánh tiên tri rằng vào nơi ngày sau rốt, muốn nhận được ơn của Đức Chúa Trời tức là sự cứu rỗi thì chúng ta nhất định phải tìm được ai?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Joe Biden", isCorrect: false },
+                    { answerText: "B. Vua Đa-vít", isCorrect: true },
+                    { answerText: "C. Putin", isCorrect: false },
+                    { answerText: "D. Kim Jong Un", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.25,
+                questionText: "Câu 2. Vào 2000 năm trước \"Ai là Đức Chúa Trời đến thế gian với tư cách vua Đa-vít tiên tri\"?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Giăng Báptit", isCorrect: false },
+                    { answerText: "B. Phiero", isCorrect: false },
+                    { answerText: "C. Phao-lô", isCorrect: false },
+                    { answerText: "D. Đức Chúa Jêsus", isCorrect: true }
+                ],
+            }
+            ,
+            {
+                id: 3.25,
+                questionText: "Câu 3. Trong Kinh Thánh, \"ngôi Đa-vít\" đã được cho biết là như thế nào?",
+                answers: [
+                    { answerText: "A. Lên ngôi năm 20 tuổi, làm vua trong 40 năm", isCorrect: false },
+                    { answerText: "B. Lên ngôi năm 30 tuổi, làm vua trong 40 năm", isCorrect: true },
+                    { answerText: "C. Lên ngôi năm 40 tuổi, làm vua trong 30 năm", isCorrect: false },
+                    { answerText: "D. Lên ngôi năm 30 tuổi, làm vua trong 50 năm", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.25,
+                questionText: "Câu 4. Vậy để ứng nghiệm lời tiên tri về vua Đa-vít thì Đức Chúa Jêsus sẽ phải chịu phép báp-têm vào năm bao nhiêu tuổi và Người cần làm Tin Lành trong bao nhiêu năm?",
+                answers: [
+                    { answerText: "A. 30 tuổi, 3 năm", isCorrect: false },
+                    { answerText: "B. 30 tuổi, 37 năm", isCorrect: false },
+                    { answerText: "C. 30 tuổi, 40 năm", isCorrect: true },
+                    { answerText: "D. 25 tuổi, 40 năm", isCorrect: false }
+                ],
+            },
+            {
+                id: 5.25,
+                questionText: "Câu 5. Trên thực tế, lịch sử Kinh Thánh cho biết Đức Chúa Jêsus đã làm Tin Lành trong bao nhiêu lâu vào 2000 năm trước?",
+                answers: [
+                    { answerText: "A. 2 năm", isCorrect: false },
+                    { answerText: "B. 3 năm", isCorrect: true },
+                    { answerText: "C. 4 năm", isCorrect: false },
+                    { answerText: "D. 5 năm", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.25,
+                questionText: "Câu 6. Kinh Thánh cho biết, để hoàn thành công việc Tin Lành còn dang dở thì Đức Chúa Jêsus - tức là Đức Chúa Trời Ngài cần làm gì?",
+                answers: [
+                    { answerText: "A. Trao trọng trách này cho Giáo hoàng", isCorrect: false },
+                    { answerText: "B. Ủy thác công việc này cho thiên sứ", isCorrect: false },
+                    { answerText: "C. Đích thân Ngài phải Tái Lâm đến thế gian này trong xác thịt lần thứ 2", isCorrect: true },
+                    { answerText: "D. Dùng tiếng sấm để dạy dỗ Tin Lành cho nhân loại", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.25,
+                questionText: "Câu 7. Theo bạn, khi Tái Lâm đến thế gian lần thứ 2 thì Đức Chúa Jêsus Tái Lâm cần làm công việc Tin Lành trong bao nhiêu lâu?",
+                answers: [
+                    { answerText: "A. Giăng Báptit", isCorrect: true },
+                    { answerText: "B. Phiero", isCorrect: false },
+                    { answerText: "C. Phao-lô", isCorrect: false },
+                    { answerText: "D. Đức Chúa Jêsus", isCorrect: false }
+                ],
+            },
+            {
+                id: 8.25,
+                questionText: "Câu 8. Kinh Thánh tiên tri rằng mục đích Đức Chúa Trời phải Tái Lâm là gì?",
+                answers: [
+                    { answerText: "A. Ban sự cứu rỗi cho những người dân vào những ngày sau rốt", isCorrect: true },
+                    { answerText: "B. Ban phép lạ cho những người dân vào thời đại sau rốt", isCorrect: false },
+                    { answerText: "C. Ban sự giàu có vinh hiển cho những người dân vào thời đại sau rốt", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án trên đều sai", isCorrect: false }
+                ],
+            },
+            {
+                id: 9.25,
+                questionText: "Câu 9. Kinh Thánh cho biết dấu chứng mà chúng ta có thể nhận biết chắc chắn về Đa-vít là gì?",
+                answers: [
+                    { answerText: "A. Mang đến phép lạ", isCorrect: false },
+                    { answerText: "B. Mang đến giao ước đời đời", isCorrect: true },
+                    { answerText: "C. Mang đến sự giàu có", isCorrect: false },
+                    { answerText: "D. Mang đến giao ước cũ", isCorrect: false }
+                ],
+            },
+            {
+                id: 10.25,
+                questionText: "Câu 10. Giao ước đời đời là giao ước như thế nào?",
+                answers: [
+                    { answerText: "A. Có chứa đựng sự khôn ngoan của Sa-lô-môn", isCorrect: false },
+                    { answerText: "B. Có chứa đựng phép trừ quỷ của các sứ đồ", isCorrect: false },
+                    { answerText: "C. Có chứa đựng bánh và rượu nho của Áp-ra-ham", isCorrect: false },
+                    { answerText: "D. Lễ Vượt Qua Giao Ước Mới có chứa đựng huyết của Đức Chúa Jêsus", isCorrect: true }
+                ],
+            },
+            {
+                id: 11.25,
+                questionText: "Câu 11. Đức Chúa Jêsus Tái Lâm cho biết để ứng nghiệm trọn vẹn lời tiên tri về ngôi vua Đa-vít thì khi đến thế gian Ngài cần phải làm điều gì?",
+                answers: [
+                    { answerText: "A. Khôi phục lại lẽ thật sự sống mà đã bị giẫm nát bởi ma quỷ Sa-tan", isCorrect: false },
+                    { answerText: "B. Ngài phải làm Tin Lành trong vòng 37 năm công việc còn lại để ứng nghiệm trọn vẹn 40 năm ngôi vua Đa-vít", isCorrect: false },
+                    { answerText: "C. Ngài phải tìm kiếm và ban sự cứu rỗi cho tất cả những người dân chân thật của Đức Chúa Trời vào thời đại này", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: true }
+                ],
+            },
+            {
+                id: 12.25,
+                questionText: "Câu 12. Vậy theo bạn, vào năm 1948 sự kiện nào đã xảy ra?",
+                answers: [
+                    { answerText: "A. Đất nước Y-sơ-ra-ên độc lập sau 1900 năm theo lời tiên tri Cây vả", isCorrect: false },
+                    { answerText: "B. Đức Chúa Jêsus Tái Lâm chịu phép báp-têm năm 30 tuổi", isCorrect: false },
+                    { answerText: "C. Đức Chúa Jêsus Tái Lâm bắt đầu rao truyền về Lễ Vượt Qua Giao Ước Mới", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: true }
                 ],
             }
         ]
@@ -527,22 +629,84 @@ export const data = {
         title: "Ma na",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.26,
+                questionText: "Câu 1. Mana Cựu ước là gì?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Nước uống ban cho người dân Y-sơ-ra-ên trên đồng vắng", isCorrect: false },
+                    { answerText: "B. Chim cút ban cho người dân Y-sơ-ra-ên để cứu đói trên đồng vắng", isCorrect: false },
+                    { answerText: "C. Bánh từ trên trời xuống ban cho người dân Y-sơ-ra-ên trên đồng vắng", isCorrect: true },
+                    { answerText: "D. Thịt ban cho người dân Y-sơ-ra-ên để cứu đói trên đồng vắng", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.26,
+                questionText: "Câu 2. Người dân Y-sơ-ra-ên trên đồng vắng đã nhận mana từ ai?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Môi-se", isCorrect: false },
+                    { answerText: "B. Người dân tự làm ra", isCorrect: false },
+                    { answerText: "C. Aron", isCorrect: false },
+                    { answerText: "D. Đức Chúa Trời", isCorrect: true }
+                ],
+            }
+            ,
+            {
+                id: 3.26,
+                questionText: "Câu 3. Mana Tân ước là gì?",
+                answers: [
+                    { answerText: "A. Bánh được ban bởi Đức Cha Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Bánh do Đức Chúa Jêsus ban cho 5000 người ăn", isCorrect: false },
+                    { answerText: "C. Thịt và huyết của Đức Chúa Jêsus chứa đựng trong Lễ Vượt Qua", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án trên đều sai", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.26,
+                questionText: "Câu 4. Đức Chúa Jêsus đã hứa rằng chúng ta sẽ nhận lãnh điều gì nếu được ăn Mana Tân Ước - giữ Lễ Vượt Qua?",
+                answers: [
+                    { answerText: "A. Được khỏe mạnh sống lâu trăm tuổi - không mắc Covid hay Ung thư", isCorrect: false },
+                    { answerText: "B. Được sống trong cảnh giàu sang phú quý hết cuộc đời này", isCorrect: false },
+                    { answerText: "C. Được sống an yên trên đất này mà không bị ai làm hại", isCorrect: false },
+                    { answerText: "D. Được nhận sự sống đời đời trên Nước Thiên Đàng", isCorrect: true }
+                ],
+            },
+            {
+                id: 5.26,
+                questionText: "Câu 5. Theo bạn thì \"giấu kín\" có nghĩa là gì?",
+                answers: [
+                    { answerText: "A. Chưa từng xuất hiện", isCorrect: false },
+                    { answerText: "B. Không hề tồn tại", isCorrect: false },
+                    { answerText: "C. Đã xuất hiện nhưng bây giờ không còn thấy nữa", isCorrect: true },
+                    { answerText: "D. Vẫn luôn luôn hiện hữu", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.26,
+                questionText: "Câu 6. Mana đương giấu kín là gì?",
+                answers: [
+                    { answerText: "A. Bánh từ trên trời được ban bởi Đức Cha Giê-hô-va bị giấu kín", isCorrect: false },
+                    { answerText: "B. Hòn sỏi có tên mới bị giấu kín", isCorrect: false },
+                    { answerText: "C. Lễ Vượt Qua Giao Ước Mới bị giấu kín 1600 năm", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án đều đúng", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.26,
+                questionText: "Câu 7. Theo lời tiên tri Kinh Thánh, Đức Chúa Trời đã phán Ngài chỉ ban \"Mana giấu kín\" cho những kẻ thắng, vậy kẻ thắng là ai?",
+                answers: [
+                    { answerText: "A. Biết về Lễ Vượt Qua Giao Ước Mới và Đức Chúa Jêsus Tái Lâm", isCorrect: true },
+                    { answerText: "B. Biết cách ăn mana do Đức Giê-hô-va ban cho", isCorrect: false },
+                    { answerText: "C. Biết công thức để làm giàu, có nhiều bằng cấp", isCorrect: false },
+                    { answerText: "D. Biết công thức để tăng cường sức khỏe", isCorrect: false }
+                ],
+            },
+            {
+                id: 8.26,
+                questionText: "Câu 8. Theo lời tiên tri Kinh Thánh thì Ai sẽ xuất hiện vào thời đại cuối cùng này cho chúng ta biết và ban cho lại cho chúng ta Mana giấu kín là Lễ Vượt Qua Giao Ước Mới?",
+                answers: [
+                    { answerText: "A. Duy nhất Đức Phật", isCorrect: false },
+                    { answerText: "B. Duy nhất Thánh Allah", isCorrect: false },
+                    { answerText: "C. Duy nhất Đức Chúa Trời", isCorrect: true },
+                    { answerText: "D. Tự chúng ta có thể lập và giữ", isCorrect: false }
                 ],
             }
         ]
@@ -550,22 +714,133 @@ export const data = {
         title: "1.2",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.27,
+                questionText: "Câu 1. Đức Chúa Trời cho biết rằng mọi việc trên thế gian này được xảy ra như thế nào?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Theo ý muốn chủ quan của bản thân mình", isCorrect: false },
+                    { answerText: "B. Không có bất cứ quy luật nào cả", isCorrect: false },
+                    { answerText: "C. Đều có giới hạn và mục đích riêng của nó", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án trên đều sai", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.27,
+                questionText: "Câu 2. Kinh Thánh cho biết rõ ràng mục đích chúng ta tin vào Đức Chúa Trời là gì?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Tìm sự cứu rỗi phần linh hồn", isCorrect: true },
+                    { answerText: "B. Tìm sự an toàn, bình an phần xác thịt", isCorrect: false },
+                    { answerText: "C. Vì ai cũng tin nên tôi cũng tin", isCorrect: false },
+                    { answerText: "D. Vì đây là tôn giáo lớn nhất trên thế giới và có các nhà thờ đẹp đẽ", isCorrect: false }
+                ],
+            },
+            {
+                id: 3.27,
+                questionText: "Câu 3. Kinh Thánh cho biết Đức Chúa Trời đã chia công việc cứu chuộc 6000 năm của Ngài ra thành bao nhiêu thời đại?",
+                answers: [
+                    { answerText: "A. 2", isCorrect: false },
+                    { answerText: "B. 4", isCorrect: false },
+                    { answerText: "C. 3", isCorrect: true },
+                    { answerText: "D. 5", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.27,
+                questionText: "Câu 4. Kinh Thánh cho biết danh của Đấng Cứu Chúa vào thời đại Đức Cha là gì?",
+                answers: [
+                    { answerText: "A. Giê-hô-va", isCorrect: true },
+                    { answerText: "B. Jêsus", isCorrect: false },
+                    { answerText: "C. Danh mới", isCorrect: false },
+                    { answerText: "D. Sa-lô-môn", isCorrect: false }
+                ],
+            },
+            {
+                id: 5.27,
+                questionText: "Câu 5. Kinh Thánh cho biết danh của Đấng Cứu Chúa vào thời đại Đức Con là gì?",
+                answers: [
+                    { answerText: "A. Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Jêsus", isCorrect: true },
+                    { answerText: "C. Danh mới", isCorrect: false },
+                    { answerText: "D. Sa-lô-môn", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.27,
+                questionText: "Câu 6. Kinh Thánh cho biết danh của Đấng Cứu Chúa vào thời đại Đức Thánh Linh là gì?",
+                answers: [
+                    { answerText: "A. Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Jêsus", isCorrect: false },
+                    { answerText: "C. Danh mới", isCorrect: true },
+                    { answerText: "D. Sa-lô-môn", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.27,
+                questionText: "Câu 7. \"Hòn sỏi trắng có tên mới\" có nghĩa là gì?",
+                answers: [
+                    { answerText: "A. Danh mới của Đức Chúa Jêsus", isCorrect: false },
+                    { answerText: "B. Danh mới của vua Đa-vít", isCorrect: true },
+                    { answerText: "C. Đức Giê-hô-va", isCorrect: false },
+                    { answerText: "D. Đức Chúa Jêsus", isCorrect: false }
+                ],
+            },
+            {
+                id: 8.27,
+                questionText: "Câu 8. Tại sao thời đại Đức Cha Danh của Đấng Cứu Chúa là Giê-hô-va(Êsai 43:11) nhưng tại sao đến thời đại Đức Con danh của Đấng Cứu Chúa lại thay đổi thành Jêsus (Công 4:11-12) nhưng đến thời Đức Thánh linh lại thay đổi sang Tên Mới (Khải Huyền 3:12, 2:17)?",
+                answers: [
+                    { answerText: "A. Vì danh Jêsus hợp với Đức Chúa Trời vào thời đại Đức Con hơn là danh Giêhôva, nên Đến thời đại Đức Thánh Linh Ngài cũng phải đổi sang tên mới phù hợp thời đại", isCorrect: false },
+                    { answerText: "B. Vì khi thời đại thay đổi thì danh của Đấng Cứu Chúa cũng thay đổi, danh của Đấng Cứu Chúa có hiệu lực giới hạn tùy theo mỗi thời đại", isCorrect: true },
+                    { answerText: "C. Vì khi thời đại thay đổi thì danh của Đấng Cứu Chúa cũng không thay đổi", isCorrect: false },
+                    { answerText: "D. Vì Danh của Đức Chúa Trời không chia theo thời đại", isCorrect: false }
+                ],
+            },
+            {
+                id: 9.27,
+                questionText: "Câu 9. Vào mỗi thời đại, sứ mạng thiêng liêng và thánh nhất của những người tin vào Đức Chúa Trời và đã nhận biết Danh Ngài là gì?",
+                answers: [
+                    { answerText: "A. Làm từ thiện", isCorrect: false },
+                    { answerText: "B. Làm chứng về Đấng Cứu Chúa", isCorrect: true },
+                    { answerText: "C. Chăm chỉ đi nhà thờ và giữ thờ phượng chủ nhật, Nô-ên", isCorrect: false },
+                    { answerText: "D. Tìm cầu tất cả các loại thần trong đó có Đức Chúa Trời là được", isCorrect: false }
+                ],
+            },
+            {
+                id: 10.27,
+                questionText: "Câu 10. Theo bạn, vào thời đại cuối cùng này, nếu đã nhận biết về Danh Mới và Đấng Cứu Chúa rồi thì chúng ta cần làm chứng cho Danh nào?",
+                answers: [
+                    { answerText: "A. Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Jêsus", isCorrect: false },
+                    { answerText: "C. Danh mới", isCorrect: true },
+                    { answerText: "D. Sa-lô-môn", isCorrect: false }
+                ],
+            },
+            {
+                id: 11.27,
+                questionText: "Câu 11. Theo anh chị, vào thời đại cuối cùng này thì Đức Chúa Trời sẽ chỉ nhậm lời của những người cầu nguyện lên Danh nào?",
+                answers: [
+                    { answerText: "A. Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Jêsus", isCorrect: false },
+                    { answerText: "C. Danh mới", isCorrect: true },
+                    { answerText: "D. Sa-lô-môn", isCorrect: false }
+                ],
+            },
+            {
+                id: 12.27,
+                questionText: "Câu 12. Theo anh chị, chúng ta cần sử dụng phương pháp nào để biết được tên mới của Đấng Cứu Chúa trong thời đại Đức Thánh Linh?",
+                answers: [
+                    { answerText: "A. Đọc sách nhiều", isCorrect: false },
+                    { answerText: "B. Xem tin tức, thời sự", isCorrect: false },
+                    { answerText: "C. Tìm hiểu Kinh Thánh", isCorrect: true },
+                    { answerText: "D. Xem internet", isCorrect: false }
+                ],
+            },
+            {
+                id: 13.27,
+                questionText: "Câu 13. Chúng ta sẽ nhận được gì khi tiếp nhận Danh Mới của Đấng Cứu Chúa vào thời đại này?",
+                answers: [
+                    { answerText: "A. Được nhiều tri thức", isCorrect: false },
+                    { answerText: "B. Được nhiều quyền lực", isCorrect: false },
+                    { answerText: "C. Được nhiều danh tiếng, tiền bạc", isCorrect: false },
+                    { answerText: "D. Sự cứu rỗi", isCorrect: true }
                 ],
             }
         ]
@@ -573,22 +848,83 @@ export const data = {
         title: "3.1",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.28,
+                questionText: "Câu 1. Đức Chúa Trời đã sử dụng ví dụ về yếu tố nào trong thiên nhiên để dạy dỗ chúng ta về lẽ thật \"3 vị Thánh nhất thể\"?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Gió", isCorrect: false },
+                    { answerText: "B. Mưa", isCorrect: false },
+                    { answerText: "C. Đất", isCorrect: false },
+                    { answerText: "D. Nước", isCorrect: true }
                 ],
             },
             {
-                id: 2,
+                id: 2.28,
+                questionText: "Câu 2. Giống như nước có hình dáng và tên gọi khác nhau tùy theo nhiệt độ. Cũng vậy Đức Chúa Trời cũng có hình dáng và tên gọi khác nhau tùy theo điều gì?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Mỗi tháng", isCorrect: false },
+                    { answerText: "B. Mỗi năm", isCorrect: false },
+                    { answerText: "C. Mỗi thế kỷ", isCorrect: false },
+                    { answerText: "D. Mỗi thời đại", isCorrect: true }
+                ],
+            },
+            {
+                id: 3.28,
+                questionText: "Câu 3. Các sứ đồ đã nhận biết Đức Chúa Jêsus vốn là ai?",
+                answers: [
+                    { answerText: "A. Thầy thông giáo", isCorrect: false },
+                    { answerText: "B. Một người mang thân phận bình thường", isCorrect: false },
+                    { answerText: "C. Đức Cha Giê-hô-va", isCorrect: true },
+                    { answerText: "D. Người Pha-ri-si", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.28,
+                questionText: "Câu 4. Kinh Thánh Cựu ước cho biết một mình Đức Giê-hô-va dựng nên muôn vật. Kinh Thánh Tân Ước lại cho biết đích thân Đức Chúa Jêsus cũng đã dựng nên muôn vật. Vậy điều này chỉ có thể xảy ra khi nào?",
+                answers: [
+                    { answerText: "A. Đức Giê-hô-va là Cha và Đức Chúa Jêsus là Đức Con", isCorrect: false },
+                    { answerText: "B. Đức Giê-hô-va là Con và Đức Chúa Jêsus là Đức Cha", isCorrect: false },
+                    { answerText: "C. Đức Cha Giê-hô-va và Đức Con Đức Chúa Jêsus là khác thể", isCorrect: false },
+                    { answerText: "D. Đức Cha Giê-hô-va và Đức Con Đức Chúa Jêsus là nhất thể", isCorrect: true }
+                ],
+            },
+            {
+                id: 5.28,
+                questionText: "Câu 5. Kinh Thánh cho biết duy chỉ ai mới có thể dò xét mọi sự sâu nhiệm trong Đức Chúa Trời?",
+                answers: [
+                    { answerText: "A. Các Thiên sứ", isCorrect: false },
+                    { answerText: "B. Người dân Y-sơ-ra-ên", isCorrect: false },
+                    { answerText: "C. Các nhà lãnh đạo tôn giáo", isCorrect: false },
+                    { answerText: "D. Đức Thánh Linh", isCorrect: true }
+                ],
+            },
+            {
+                id: 6.28,
+                questionText: "Câu 6. Trong sách Tin Lành Giăng, Kinh Thánh cũng làm chứng rằng Đức Thánh Linh là ai?",
+                answers: [
+                    { answerText: "A. Đức Cha Giê-hô-va", isCorrect: false },
+                    { answerText: "B. Đức Chúa Trời", isCorrect: false },
+                    { answerText: "C. Đức Chúa Jeus", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án đều đúng", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.28,
+                questionText: "Câu 7. Câu nào sau đây là đúng?",
+                answers: [
+                    { answerText: "A. Đức Cha sinh ra trước Đức con, vì Cha sinh ra con", isCorrect: false },
+                    { answerText: "B. Đức Cha là ông của Đức Thánh Linh", isCorrect: false },
+                    { answerText: "C. Đức con là Cha của Đức Thánh Linh", isCorrect: false },
+                    { answerText: "D. Đức Cha, Đức Con và Đức Thánh Linh, cùng chỉ về 1 Đấng đồng nhất", isCorrect: true }
+                ],
+            },
+            {
+                id: 8.28,
+                questionText: "Câu 8. Theo anh chị, nếu chúng ta hiểu biết chính xác về lẽ thật Ba vị thánh nhất thể thì chúng ta sẽ được?",
+                answers: [
+                    { answerText: "A. Bị rủa sả như người Giu-đa 2000 năm trước", isCorrect: false },
+                    { answerText: "B. Nhận biết được Đức Chúa Trời đến trong xác thịt và nhận được sự cứu rỗi giống các thánh đồ", isCorrect: true },
+                    { answerText: "C. Không có gì thay đổi", isCorrect: false },
+                    { answerText: "D. Chúng ta sẽ được giàu có thịnh vượng về phần xác", isCorrect: false }
                 ],
             }
         ]
@@ -596,22 +932,103 @@ export const data = {
         title: "5.8",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.29,
+                questionText: "Câu 1. Trong quan niệm của các cơ đốc nhân thế gian, họ nghĩ như thế nào về việc Đức Chúa Jêsus tái lâm và Sự phán xét cuối cùng?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Đức Chúa Jêsus chỉ đến 1 lần duy nhất và sẽ không đến lần 2", isCorrect: false },
+                    { answerText: "B. Đức Chúa Jêsus là Đức Chúa Trời - Đấng tình yêu thương nên Ngài sẽ không phán xét mà tha thứ luôn", isCorrect: true },
+                    { answerText: "C. Đức Chúa Trời sẽ Tái lâm đến thế gian trước rồi sau đó mới tiến hành phán xét cho họ về Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "D. Đức Chúa Trời sẽ Tái lâm rồi phán xét thế gian ngay lập tức rồi cho họ được đi vào Nước Thiên Đàng", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.29,
+                questionText: "Câu 2. Kinh Thánh đưa ra quan điểm như thế nào về Tái Lâm và phán xét cuối cùng?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Đức Chúa Jêsus chỉ đến 1 lần duy nhất và sẽ không đến lần 2", isCorrect: false },
+                    { answerText: "B. Đức Chúa Jêsus là Đức Chúa Trời - Đấng tình yêu thương nên Ngài sẽ không phán xét mà tha thứ luôn", isCorrect: false },
+                    { answerText: "C. Đức Chúa Trời sẽ Tái lâm đến thế gian trước rồi sau đó mới tiến hành phán xét thế gian", isCorrect: true },
+                    { answerText: "D. Đức Chúa Trời sẽ Tái lâm rồi phán xét thế gian ngay lập tức rồi cho họ được đi vào Nước Thiên Đàng", isCorrect: false }
+                ],
+            },
+            {
+                id: 3.29,
+                questionText: "Câu 3. Theo quan điểm của các cơ đốc nhân thế gian, họ đã nghĩ rằng đám mây có nghĩa là gì?",
+                answers: [
+                    { answerText: "A. Là lời ví dụ", isCorrect: false },
+                    { answerText: "B. Là xác thịt", isCorrect: false },
+                    { answerText: "C. Là đám mây thực tế trên trời", isCorrect: true },
+                    { answerText: "D. Là hình ảnh tưởng được, được thần thánh hóa", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.29,
+                questionText: "Câu 4. Theo bạn lí do vì sao các cơ đốc nhân thế gian lại đưa ra quan điểm khác biệt với Kinh Thánh?",
+                answers: [
+                    { answerText: "A. Vì họ tự giải nghĩa Kinh Thánh theo ý riêng mình", isCorrect: false },
+                    { answerText: "B. Vì họ không có \"Chồi của vua Đa-vít\" giải nghĩa cho", isCorrect: false },
+                    { answerText: "C. Vì họ nghe theo lời dạy dỗ của các giáo hoàng, mục sư nổi tiếng", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: true }
+                ],
+            },
+            {
+                id: 5.29,
+                questionText: "Câu 5. Lời rằng \"Hãy đứng thẳng lên, ngước đầu lên vì sự giải cứu của các ngươi gần tới\" có nghĩa là gì?",
+                answers: [
+                    { answerText: "A. Chỉ cần Đức Chúa Trời đến là chúng ta có thể lập tức đi vào Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "B. Có nghĩa là hãy chuẩn bị để được cứu rỗi vì thời điểm đi vào Nước Thiên Đàng đã gần tới rồi", isCorrect: true },
+                    { answerText: "C. Chỉ cần nhìn lên trời và trông thấy Đức Chúa Trời thì có nghĩa chúng ta sắp được đi vào Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "D. Vào ngày Đức Chúa Trời đến thì tất thảy những người tin Chúa sẽ được trở nên giàu có, vinh hiển trên đất này", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.29,
+                questionText: "Câu 6. Vào năm 600TCN, Đấng tiên tri Đa-ni-ên đã trông thấy sự mặc thị về \"Một người giống như con người đến\". Vậy Đấng ấy đã đến với điều gì?",
+                answers: [
+                    { answerText: "A. Quyền thế", isCorrect: false },
+                    { answerText: "B. Vinh hiển", isCorrect: false },
+                    { answerText: "C. Nước", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: true }
+                ],
+            },
+            {
+                id: 7.29,
+                questionText: "Câu 7. Vậy Ai là Đấng là đến là ứng nghiệm trọn vẹn lời tiên tri trong sách Đa-ni-ên?",
+                answers: [
+                    { answerText: "A. Đức Phật", isCorrect: false },
+                    { answerText: "B. Giáo hoàng", isCorrect: false },
+                    { answerText: "C. Đức Chúa Jêsus", isCorrect: true },
+                    { answerText: "D. Đức Mẹ Maria", isCorrect: false }
+                ],
+            },
+            {
+                id: 8.29,
+                questionText: "Câu 8. Lời rằng \"ngự đến trên đám mây\" có nghĩa là gì?",
+                answers: [
+                    { answerText: "A. Đức Chúa Trời sẽ đứng trên đám mây và bay từ trên trời xuống", isCorrect: false },
+                    { answerText: "B. Khi ngửa đầu nhìn trông các đám mây trên trời thì sẽ nghe thấy lời phán của Đức Chúa Trời", isCorrect: false },
+                    { answerText: "C. Là lời báo hiệu rằng ngày Đức Chúa Trời đến thì trời sẽ đầy mây, không nắng, không mưa", isCorrect: false },
+                    { answerText: "D. Là lời ví dụ: Đức Chúa Trời sẽ đến thế gian trong hình ảnh xác thịt loài người", isCorrect: true }
+                ],
+            },
+            {
+                id: 9.29,
+                questionText: "Câu 9. Theo bạn lí do vì sao Đức Chúa Trời phải Tái Lâm đến trong xác thịt?",
+                answers: [
+                    { answerText: "A. Vì Ngài thích như vậy", isCorrect: false },
+                    { answerText: "B. Vì Ngài muốn làm mọi việc khác với suy nghĩ của loài người", isCorrect: false },
+                    { answerText: "C. Vì khi Ngài Tái Lâm thì không có ai có đức tin chân thật trên đất nên Đức Chúa Trời phải xây dựng lại đức tin cho họ rồi sau này mới tiến hành Phán xét được", isCorrect: true },
+                    { answerText: "D. Bởi vì thiên sứ trên trời ước ao mọi việc được diễn ra như vậy", isCorrect: false }
+                ],
+            },
+            {
+                id: 10.29,
+                questionText: "Câu 10. Trong câu Kinh Thánh Giăng 10:16 \"Ta còn có chiên khác chẳng thuộc về chuồng nầy; ta cũng phải dẫn nó về nữa, chiên đó sẽ nghe tiếng ta, rồi sẽ chỉ có một bầy, và một người chăn mà thôi.\" thì \"Ta cũng phải dẫn\" là lời chỉ ra điều gì?",
+                answers: [
+                    { answerText: "A. 2000 năm trước Đức Chúa Jêsus đã đến và dẫn dắt các sứ đồ ở thời đại Sơ Lâm được đi vào vào Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "B. Vào thời đại Cựu ước ĐCT đến dẫn dắt người dân của ĐCT đi vào Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "C. Đức Chúa Trời đến lần thứ 3 để dẫn dắt người dân đi vào NTĐ", isCorrect: false },
+                    { answerText: "D. ĐC Jêsus sẽ Tái lâm đến trái đất giống như lần thứ nhất trong hình ảnh xác thịt để dẫn dắt các thánh đồ vào thời đại cuối cùng", isCorrect: true }
                 ],
             }
         ]
@@ -619,22 +1036,103 @@ export const data = {
         title: "Đối ứng",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.30,
+                questionText: "Câu 1. Việc MQ cám dỗ cta đã được ĐCT tiên tri trước thông qua sự kiện nào?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Sự kiện Con rắn cám dỗ A-đam và Ê-va trong vườn Êden", isCorrect: true },
+                    { answerText: "B. Sự kiện này không được tiên tri trong KT", isCorrect: false },
+                    { answerText: "C. Sự kiện tiên tri cây vả", isCorrect: false },
+                    { answerText: "D. Mana giấu kín", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.30,
+                questionText: "Câu 2. Vào thời đại này MQ dùng phương pháp nào để cám dỗ chúng ta, khiến chúng ta nghi ngờ lẽ thật?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Bảo chúng ta tập trung xem lời KT", isCorrect: false },
+                    { answerText: "B. Xúi dục chúng ta xem phỉ báng trên internet", isCorrect: true },
+                    { answerText: "C. Không quan tâm chúng ta làm gì", isCorrect: false },
+                    { answerText: "D. Khuyên chúng ta không nên xem phỉ báng trên internet", isCorrect: false }
+                ],
+            },
+            {
+                id: 3.30,
+                questionText: "Câu 3. Những nội dung MQ sử dụng để phỉ báng là gì?",
+                answers: [
+                    { answerText: "A. Hủy báng về sinh hoạt và hoàn cảnh xác thịt của Đức Chúa Trời", isCorrect: false },
+                    { answerText: "B. Hủy báng năng lực của Đức Chúa Trời", isCorrect: false },
+                    { answerText: "C. Tất cả những điều trên", isCorrect: true },
+                    { answerText: "D. Không điều nào trong 2 điều trên", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.30,
+                questionText: "Câu 4. MQST khiến chúng ta suy nghĩ như thế nào về ĐCT để chúng ta nghi ngờ và rời bỏ lẽ thật?",
+                answers: [
+                    { answerText: "A. ĐCT không thể đến là con người mang xác thịt được vì Ngài là thần", isCorrect: false },
+                    { answerText: "B. ĐCT cao quý đến phải làm vị trí cao như làm Tổng thống, được sung sướng và được người ta tung hô", isCorrect: false },
+                    { answerText: "C. ĐCT đến phải làm được nhiều phép lạ chữa bệnh", isCorrect: false },
+                    { answerText: "D. Tất cả đáp án trên", isCorrect: true }
+                ],
+            },
+            {
+                id: 5.30,
+                questionText: "Câu 5. KT tiên tri ĐC Jêsus là ĐCT đến trong xác thịt và chịu đau đớn, bị sỉ nhục và sống cuộc đời khổ nạn vì điều gì?",
+                answers: [
+                    { answerText: "A. Bảo chúng ta tập trung xem lời KTA. Vì Ngài đã phạm tội ở trên trời", isCorrect: false },
+                    { answerText: "B. Vì Ngài muốn trải nghiệm cho vui", isCorrect: false },
+                    { answerText: "C. Vì gánh vác tội lỗi thay cho chúng ta và tha thứ tội lỗi cho chúng ta", isCorrect: true },
+                    { answerText: "D. Vì Ngài muốn trở nên nổi tiếng", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.30,
+                questionText: "Câu 6. ĐC Jêsus là ĐCT đến trong xác thịt để cứu chúng ta nên chúng ta cần phải làm thế nào?",
+                answers: [
+                    { answerText: "A. Tin và tiếp nhận ĐC Jêsus là ĐCT để được nhận SCR", isCorrect: true },
+                    { answerText: "B. Không liên quan đến tôi", isCorrect: false },
+                    { answerText: "C. Từ chối giống người Giu-đa", isCorrect: false },
+                    { answerText: "D. Chỉ coi như 1 người bình thường", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.30,
+                questionText: "Câu 7. Những người Giu-đa đã không tin và tiếp nhận ĐC Jêsus là ĐCT vì lí do gì?",
+                answers: [
+                    { answerText: "A. Nhìn vào xác thịt của ĐC Jêsus với thân phận là một người bình thường", isCorrect: false },
+                    { answerText: "B. Nhìn vào sinh hoạt của ĐC Jêsus, không rửa tay trước khi ăn, giao du với người thâu thuế, phường đĩ điếm", isCorrect: false },
+                    { answerText: "C. Nghĩ ĐC. Jêsus chưa từng đi học nên không thể là ĐCT.", isCorrect: false },
+                    { answerText: "D. Tất cả đáp án trên", isCorrect: true }
+                ],
+            },
+            {
+                id: 8.30,
+                questionText: "Câu 8. Chúng ta phải nhìn nhận về ĐC Jêsus dựa theo quan điểm nào?",
+                answers: [
+                    { answerText: "A. Quan niệm của xã hội", isCorrect: false },
+                    { answerText: "B. Quan điểm của truyền thống và tư duy con người", isCorrect: false },
+                    { answerText: "C. Quan điểm lời tiên tri của Kinh Thánh", isCorrect: true },
+                    { answerText: "D. Quan điểm của Cha xứ", isCorrect: false }
+                ],
+            },
+            {
+                id: 9.30,
+                questionText: "Câu 9. Vào thời đại này KT tiên tri ĐC Jêsus Tái lâm sẽ đến để cứu rỗi chúng ta, nên chúng ta cần phải làm gì?",
+                answers: [
+                    { answerText: "A. Chăm chỉ học các dấu hiện tiên tri về Ngài để nhận biết ĐC Jêsus Tái lâm", isCorrect: false },
+                    { answerText: "B. Vui mừng và tiếp nhận tin theo Ngài khi đã xác thực các dấu hiệu", isCorrect: false },
+                    { answerText: "C. Không quan tâm đến các phỉ báng mà chỉ quan tâm đến sự ứng nghiệm của Ngài trong KT", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án đều đúng", isCorrect: true }
+                ],
+            },
+            {
+                id: 10.30,
+                questionText: "Câu 10. Quan điểm của bạn Đức Chúa Jêsus là ai?",
+                answers: [
+                    { answerText: "A. Đức Chúa Trời đến trong xác thịt", isCorrect: true },
+                    { answerText: "B. Phe đạo dối", isCorrect: false },
+                    { answerText: "C. Một người bình thường tự xưng là Đức Chúa Trờì", isCorrect: false },
+                    { answerText: "D. Là một người tốt", isCorrect: false }
                 ],
             }
         ]
@@ -642,22 +1140,154 @@ export const data = {
         title: "3.4",
         listGraft: [
             {
-                id: 1,
-                questionText: "Bản thiết kế sự sống được giấu ở đâu?",
+                id: 1.31,
+                questionText: "Câu 1. Theo bạn, lí do vì sao Đức Chúa Jêsus muốn dạy dỗ cho chúng ta về ví dụ cỏ lùng và lúa mì?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Ngài muốn truyền thụ kinh nghiệm trồng cấy cho chúng ta", isCorrect: false },
+                    { answerText: "B. Cỏ lùng và lúa mì chỉ là lời ví dụ, thông qua lời ví dụ Đức Chúa Jêsus sẽ dạy dỗ các lẽ thật về phần linh hồn", isCorrect: true },
+                    { answerText: "C. Đức Chúa Jêsus không thích cỏ lùng và chỉ thích lúa mì", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: false }
                 ],
             },
             {
-                id: 2,
+                id: 2.31,
+                questionText: "Câu 2. Trong lời ví dụ, kẻ thù đã đến và gieo cỏ lùng vào ruộng vào thời điểm nào?",
                 answers: [
-                    { answerText: "A. Kinh Phật", isCorrect: false },
-                    { answerText: "B. Kinh Thánh", isCorrect: false },
-                    { answerText: "C. Kinh Dịch", isCorrect: true },
-                    { answerText: "D. Tất cả các đáp án trên", isCorrect: false }
+                    { answerText: "A. Lúc người chủ còn chưa gieo lúa mì vào ruộng", isCorrect: false },
+                    { answerText: "B. Lúc người chủ còn đương gieo lúa mì", isCorrect: false },
+                    { answerText: "C. Sau khi người chủ gieo xong lúa mì, Ngài ngủ", isCorrect: true },
+                    { answerText: "D. Sau khi người chủ đã thu hoạch xong lúa mì", isCorrect: false }
+                ],
+            },
+            {
+                id: 3.31,
+                questionText: "Câu 3. Lí do vì sao người chủ khuyên các đầy tớ chưa nên vội nhổ bỏ cỏ lùng trong ruộng?",
+                answers: [
+                    { answerText: "A. Vì người chủ cũng thích thu hoạch cỏ lùng", isCorrect: false },
+                    { answerText: "B. Vì cỏ lùng là sự tồn tại có lợi với sự phát triển của lúa mì?", isCorrect: false },
+                    { answerText: "C. Vì có thể nhổ nhầm lúa mì", isCorrect: true },
+                    { answerText: "D. Tất cả các đáp án trên đều đúng", isCorrect: false }
+                ],
+            },
+            {
+                id: 4.31,
+                questionText: "Câu 4. Trong lời ví dụ, kết cục cuối cùng của cỏ lùng và lúa mì là gì?",
+                answers: [
+                    { answerText: "A. Cỏ lùng bị đem đi đốt, lúa mì được thâu vào kho", isCorrect: true },
+                    { answerText: "B. Cỏ lùng được đem vào kho, lúa mì bị đem đi đốt", isCorrect: false },
+                    { answerText: "C. Người chủ thu cả cỏ lùng và lúa mì vào kho", isCorrect: false },
+                    { answerText: "D. Người chủ đem cả cỏ lùng và lúa mì đi đốt", isCorrect: false }
+                ],
+            },
+            {
+                id: 5.31,
+                questionText: "Câu 5. Trong lời ví dụ, người chủ ruộng là biểu tượng cho ai?",
+                answers: [
+                    { answerText: "A. Đức Chúa Jêsus", isCorrect: true },
+                    { answerText: "B. Những người đối nghịch Đức Chúa Jêsus", isCorrect: false },
+                    { answerText: "C. Thiên sứ", isCorrect: false },
+                    { answerText: "D. Hoàng đế La Mã", isCorrect: false }
+                ],
+            },
+            {
+                id: 6.31,
+                questionText: "Câu 6. Trong lời ví dụ, ruộng là chỉ ra nơi nào?",
+                answers: [
+                    { answerText: "A. Mặt trời", isCorrect: false },
+                    { answerText: "B. Mặt trăng", isCorrect: false },
+                    { answerText: "C. Trái đất", isCorrect: true },
+                    { answerText: "D. Sao hỏa", isCorrect: false }
+                ],
+            },
+            {
+                id: 7.31,
+                questionText: "Câu 7. Lúa mỳ là ví dụ cho điều gì?",
+                answers: [
+                    { answerText: "A. Lẽ thật của Đức Chúa Trời", isCorrect: true },
+                    { answerText: "B. Triết học", isCorrect: false },
+                    { answerText: "C. Sự phạm pháp", isCorrect: false },
+                    { answerText: "D. Luật pháp xã hội chủ nghĩa", isCorrect: false }
+                ],
+            },
+            {
+                id: 8.31,
+                questionText: "Câu 8. Cỏ lùng là ví dụ cho điều gì?",
+                answers: [
+                    { answerText: "A. Lẽ thật sự sống", isCorrect: false },
+                    { answerText: "B. Điều răn của ĐCT", isCorrect: false },
+                    { answerText: "C. Sự phạm luật pháp của Đức Chúa Trời", isCorrect: true },
+                    { answerText: "D. Tư tưởng triết học", isCorrect: false }
+                ],
+            },
+            {
+                id: 9.31,
+                questionText: "Câu 9. Kẻ thù của chủ ruộng là ví dụ về ai?",
+                answers: [
+                    { answerText: "A. Ma quỷ Satan", isCorrect: true },
+                    { answerText: "B. Người Giu-đa", isCorrect: false },
+                    { answerText: "C. Thiên sứ", isCorrect: false },
+                    { answerText: "D. Hoàng đế La Mã", isCorrect: false }
+                ],
+            },
+            {
+                id: 10.31,
+                questionText: "Câu 10. Trong lời ví dụ, kho lúa mỳ và lò lửa lần lượt được biểu tượng cho điều gì?",
+                answers: [
+                    { answerText: "A. Nước Thiên Đàng và hồ lửa địa ngục", isCorrect: true },
+                    { answerText: "B. Hồ lửa địa ngục và Nước Thiên Đàng", isCorrect: false },
+                    { answerText: "C. Tây phương cực lạc và 18 tầng địa ngục", isCorrect: false },
+                    { answerText: "D. Tất cả các đáp án trên đều sai", isCorrect: false }
+                ],
+            },
+            {
+                id: 11.31,
+                questionText: "Câu 11. Đức Chúa Jêsus đã phán rằng người như thế nào mới được vào NTĐ?",
+                answers: [
+                    { answerText: "A. Người làm theo điều răn của loài người", isCorrect: false },
+                    { answerText: "B. Chỉ cần tin vào Đức Chúa Trời là được", isCorrect: false },
+                    { answerText: "C. Người làm theo ý muốn của Đức Chúa Trời", isCorrect: true },
+                    { answerText: "D. Người biết làm phép lạ", isCorrect: false }
+                ],
+            },
+            {
+                id: 12.31,
+                questionText: "Câu 12. Phương pháp để tìm kiếm lẽ thật đúng đắn là gì?",
+                answers: [
+                    { answerText: "A. Làm theo tấm gương của Đức Chúa Jêsus và các sứ đồ thời đại sơ khai", isCorrect: true },
+                    { answerText: "B. Làm theo giáo lý của những Hội thánh lớn", isCorrect: false },
+                    { answerText: "C. Làm theo giáo lý của những Hội thánh có truyền thống lâu đời", isCorrect: false },
+                    { answerText: "D. Làm theo truyền thống tổ tiên để lại", isCorrect: false }
+                ],
+            },
+            {
+                id: 13.31,
+                questionText: "Câu 13. Đâu không phải sự phạm pháp bị gieo sau thời đại các sứ đồ?",
+                answers: [
+                    { answerText: "A. Lễ Nôen", isCorrect: false },
+                    { answerText: "B. Thờ phượng Chủ nhật", isCorrect: false },
+                    { answerText: "C. Thờ phượng Ngày Sa-bát", isCorrect: true },
+                    { answerText: "D. Tôn kính thập tự giá", isCorrect: false }
+                ],
+            },
+            {
+                id: 14.31,
+                questionText: "Câu 14. Đâu là các lẽ thật của ĐCT?",
+                answers: [
+                    { answerText: "A. Lễ Lều Tạm", isCorrect: false },
+                    { answerText: "B. Lễ Ngũ Tuần", isCorrect: false },
+                    { answerText: "C. Lễ Vượt Qua, ngày Sa-bát", isCorrect: false },
+                    { answerText: "D. Luật pháp khăn trùm đầu", isCorrect: false },
+                    { answerText: "E. Tất cả đáp án trên", isCorrect: true },
+                ],
+            },
+            {
+                id: 15.31,
+                questionText: "Câu 15. Mục đích ma quỷ gieo cỏ lùng là gì?",
+                answers: [
+                    { answerText: "A. Để giúp đỡ công việc Tin Lành của Đức Chúa Trời", isCorrect: false },
+                    { answerText: "B. Để phá hoại công việc gieo giống mùa màng của Đức Chúa Trời", isCorrect: false },
+                    { answerText: "C. Để phá hoại công việc Tin Lành: cứu rỗi các người dân của Đức Chúa Trời", isCorrect: true },
+                    { answerText: "D. Để phá hoại các hội thánh nhà thờ trên thế gian", isCorrect: false }
                 ],
             }
         ]

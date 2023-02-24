@@ -5,7 +5,7 @@ import { createContext, useEffect, useState } from "react";
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
-    const [user, setUser] = useState(JSON.parse(localStorage.getItem('currentUser') || null))
+    const [user, setUser] = useState(JSON.parse(localStorage.getItem('user') || null))
 
     const login = async (userData) => {
         const res = await axios.post('https://btkss.onrender.com/api/auth/login', userData)
@@ -18,7 +18,7 @@ export const UserProvider = ({ children }) => {
     }
 
     useEffect(() => {
-        localStorage.setItem('currentUser', JSON.stringify(user))
+        localStorage.setItem('user', JSON.stringify(user))
     }, [user])
 
     return <UserContext.Provider value={{ login, logout, user }} >
