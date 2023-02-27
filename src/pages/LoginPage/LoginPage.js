@@ -40,8 +40,7 @@ const LoginPage = () => {
 
     useLayoutEffect(() => {
         if (user) return navigate('/')
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [user])
+    }, [user, navigate])
 
     return (
         <div className='login d-flex justify-content-center align-items-center flex-column text'>
@@ -50,11 +49,10 @@ const LoginPage = () => {
                 <h3 className="heading-login fw-bold text-center mb-4">
                     Đăng nhập tài khoản
                 </h3>
-                <label htmlFor="password" className="password-label mb-2">
+                <label className="password-label mb-2">
                     Mật khẩu
                 </label>
                 <input
-                    id="password"
                     className="password-input"
                     type="password"
                     placeholder="**********"

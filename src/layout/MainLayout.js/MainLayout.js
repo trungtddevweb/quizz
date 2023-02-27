@@ -6,14 +6,13 @@ import BottomRight from '../../assets/images/bottom-right.svg'
 import './MainLayout.scss'
 import { useContext, useLayoutEffect } from 'react'
 import { UserContext } from '../../context/context'
-
 const MainLayout = () => {
     const { user } = useContext(UserContext)
     const navigate = useNavigate()
 
     useLayoutEffect(() => {
-        if (user === null) {
-            return navigate('/login')
+        if (!user) {
+            navigate('/login')
         }
     }, [user, navigate])
 
@@ -23,7 +22,7 @@ const MainLayout = () => {
                 <img className='image-layout left' src={topLeft} alt="" />
                 <img className='image-layout right p-4' src={topRight} alt="" />
             </div>
-            <div className="main d-flex  justify-content-center"><Outlet /></div >
+            <div className="main d-flex justify-content-center"><Outlet /></div >
             <div className='footer'>
                 <img className='image-layout bottom p-4' src={BottomLeft} alt="" />
                 <img className='image-layout bottom right' src={BottomRight} alt="" />

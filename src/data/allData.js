@@ -118,7 +118,7 @@ export const data = {
                 questionText: "Câu 12. Điều gì quan trọng đối với bạn nhất khi học xong MG1?",
                 answers: [
                     { answerText: "A. Sức khỏe", isCorrect: false },
-                    { answerText: "B. Tiền bạc vật chất", isCorrect: true },
+                    { answerText: "B. Tiền bạc vật chất", isCorrect: false },
                     { answerText: "C. Công danh sự nghiệp gia đình", isCorrect: false },
                     { answerText: "D. Thú vui ở thế gian", isCorrect: false },
                     { answerText: "E. Biên tên vào sách sự sống", isCorrect: true }

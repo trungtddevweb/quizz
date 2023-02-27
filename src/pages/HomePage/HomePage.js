@@ -12,7 +12,7 @@ const HomePage = () => {
             <div className="list d-flex gap-5">
                 {tilteListQuestions.map((item, index) => (
                     <Link key={index} to={`/list-questions/m${index + 1}`}>
-                        <div className="list-item" >
+                        <div className="list-item bg-white" >
                             <div className={classnames("wrapper-number mb-2", {
                                 lightGreen: index === 0,
                                 green: index === 1,

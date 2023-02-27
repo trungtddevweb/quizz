@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { data } from '../../data/allData'
 import { Link, useParams } from 'react-router-dom'
 import './ListQuestions.scss'
-import DetailQuestions from '../../pages/DetailQuestions/DetailQuestions'
 
 const ListQuestions = ({ dataQuestion }) => {
     const [listQuestions, setListQuestions] = useState([])

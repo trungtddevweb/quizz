@@ -4,7 +4,7 @@ import HomePage from '../pages/HomePage'
 import ErrorPage from '../pages/ErrorPage'
 import LoginPage from '../pages/LoginPage'
 import ListQuestionPage from '../pages/ListQuestionPage'
-import DetailQuestions from "../pages/DetailQuestions/DetailQuestions";
+import DetailQuestions from "../pages/DetailQuestions";
 
 
 export default createBrowserRouter([
@@ -27,8 +27,7 @@ export default createBrowserRouter([
             {
                 path: '/detail-questions/:questionId/:index',
                 element: <DetailQuestions />,
-            },
-
+            }
         ]
     }
 ])
