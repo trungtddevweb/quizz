@@ -9,11 +9,11 @@ const LazyApp = lazy(() => import('./App'))
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UserProvider>
-      <Suspense fallback={<SpinerAnimation />}>
+    <Suspense fallback={<SpinerAnimation />}>
+      <UserProvider>
         <LazyApp />
-      </Suspense>
-    </UserProvider>
+      </UserProvider>
+    </Suspense>
   </React.StrictMode >
 );
 
