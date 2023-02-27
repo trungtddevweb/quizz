@@ -12,8 +12,9 @@ const MainLayout = () => {
     const navigate = useNavigate()
 
     useLayoutEffect(() => {
-        if (user === null) return navigate('/login')
-    }, [user, navigate])
+        if (!user) return navigate('/login')
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [user])
 
     return (
         <>

@@ -40,7 +40,8 @@ const LoginPage = () => {
 
     useLayoutEffect(() => {
         if (user) return navigate('/')
-    }, [user, navigate])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [user])
 
     return (
         <div className='login d-flex justify-content-center align-items-center flex-column text'>
