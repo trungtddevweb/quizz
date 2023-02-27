@@ -4,8 +4,9 @@ import topRight from '../../assets/images/top-right.svg'
 import BottomLeft from '../../assets/images/bottom-left.svg'
 import BottomRight from '../../assets/images/bottom-right.svg'
 import './MainLayout.scss'
-import { useContext, useLayoutEffect } from 'react'
+import { useContext, useEffect, useLayoutEffect, useState } from 'react'
 import { UserContext } from '../../context/context'
+// import { UserContext } from '../../context/context'
 const MainLayout = () => {
     const { user } = useContext(UserContext)
     const navigate = useNavigate()
@@ -14,7 +15,7 @@ const MainLayout = () => {
         if (!user) {
             navigate('/login')
         }
-    }, [user, navigate])
+    }, [user])
 
     return (
         <>
@@ -22,7 +23,9 @@ const MainLayout = () => {
                 <img className='image-layout left' src={topLeft} alt="" />
                 <img className='image-layout right p-4' src={topRight} alt="" />
             </div>
-            <div className="main d-flex justify-content-center"><Outlet /></div >
+            <div className="main d-flex justify-content-center">
+                <Outlet />
+            </div >
             <div className='footer'>
                 <img className='image-layout bottom p-4' src={BottomLeft} alt="" />
                 <img className='image-layout bottom right' src={BottomRight} alt="" />
