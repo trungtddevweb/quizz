@@ -1,4 +1,4 @@
-import { useContext, useLayoutEffect, useState } from "react"
+import { useContext, useEffect, useState } from "react"
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as yup from 'yup'
@@ -38,10 +38,9 @@ const LoginPage = () => {
         }
     }
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         if (user) return navigate('/')
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [user])
+    }, [user, navigate])
 
     return (
         <div className='login d-flex justify-content-center align-items-center flex-column text'>
