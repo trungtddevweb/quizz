@@ -61,11 +61,11 @@ const DetailQuestions = () => {
 
     return (
         <>
-            <ResultModel isClose={isClose} modalIsOpen={modalIsOpen} answers={values} topic={questionId} />
+            <ResultModel isClose={isClose} modalIsOpen={modalIsOpen} answers={values} topic={listQuestions.title} />
             <div className="detail-questions ">
                 <div className="top-detail-question d-flex align-items-center flex-column">
                     <Header />
-                    <h3 className="my-4">Câu hỏi mảnh số <span className="fw-semibold p-2 bg-info text-white rounded-4">{listQuestions?.title}</span ></h3>
+                    <h4 className="my-4">Câu hỏi mảnh số <span className="p-2 bg-info text-white rounded-4">{listQuestions?.title}</span ></h4>
                     <p className="totalQuestion mt-2 text-gray">Số câu hỏi: {listQuestions.listGraft?.length}</p>
                     <p className="totalQuestion">Điểm số đỗ: <span className="text-success">80đ</span></p>
                 </div>
@@ -73,9 +73,9 @@ const DetailQuestions = () => {
                     {listQuestions.listGraft?.map((question) => (
                         <div key={question.id} className="question-item mb-3">
                             <h5 className="question-title mb-3">{question.questionText}</h5>
-                            <div className="question-options d-flex flex-column gap-2">
+                            <div className="question-options d-flex flex-column">
                                 {question.answers?.map((answer, i) => (
-                                    <label className="item-question d-flex align-items-baseline" key={i}>
+                                    <label className="item-question d-flex align-items-baseline py-1" key={i}>
                                         <input
                                             name={question.id}
                                             className="choose-input"

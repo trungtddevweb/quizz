@@ -58,7 +58,7 @@ const ResultModel = ({ answers, modalIsOpen, isClose, topic }) => {
                         <div className='text-center'>
                             <h4 className='text-secondary'>Rất tiếc!</h4>
                             <h5>
-                                Bạn đã không đạt yêu cầu về điểm số để hoàn thành bài thi về chủ đề  <span className='text-primary'>{topic} </span> với tổng số điểm là <span className='text-secondary'>{countResult.toPrecision(2) || 0} điểm</span>.
+                                Bạn đã không đạt yêu cầu về điểm số để hoàn thành bài thi về chủ đề  <span className='text-primary'>{topic} </span> với tổng số điểm là <span className='text-secondary'>{Math.floor(countResult)} điểm</span>.
                             </h5>
                         </div>
 
@@ -67,7 +67,7 @@ const ResultModel = ({ answers, modalIsOpen, isClose, topic }) => {
                             <h4 className='text-success'>
                                 Xin chúc mừng!
                             </h4>
-                            <h5>Bạn đã hoàn thành bài thi về chủ đề <span className='text-primary'>{topic} </span>với tổng số điểm là <span className='text-danger'>{countResult.toPrecision(2) || 0} điểm</span>.</h5>
+                            <h5>Bạn đã hoàn thành bài thi về chủ đề <span className='text-primary'>{topic} </span>với tổng số điểm là <span className='text-danger'>{Math.floor(countResult)} điểm</span>.</h5>
                         </div>
                     )
                 }
