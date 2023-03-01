@@ -5,6 +5,7 @@ import * as yup from 'yup'
 import { useNavigate } from "react-router-dom"
 import "./Login.scss"
 import { UserContext } from "../../context/context"
+import { Spinner } from "react-bootstrap"
 
 const LoginPage = () => {
     const [error, setError] = useState(null)
@@ -62,7 +63,7 @@ const LoginPage = () => {
                 />
                 {errors.password && <span className="text-danger">Mật khẩu không được để trống!</span>}
                 {error && <span className="text-danger">{error}</span>}
-                <button className="button-login mt-4" type="submit" disabled={!isDirty || !isValid} >{isLoading ? <span>Đang đăng nhập...</span> : "Đăng nhập"}</button>
+                <button className="button-login mt-4 btn-home" type="submit" disabled={!isDirty || !isValid} >{isLoading ? <Spinner size='sm' /> : "Đăng nhập"}</button>
             </form>
         </div>
     )

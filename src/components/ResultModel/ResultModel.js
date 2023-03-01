@@ -35,7 +35,7 @@ const ResultModel = ({ answers, modalIsOpen, isClose, topic }) => {
             count++
         }
     }
-    const countResult = ((count * 10) / answersLength)
+    const countResult = ((count * 100) / answersLength)
 
     const reFreshPage = () => {
         window.location.reload()
@@ -54,7 +54,7 @@ const ResultModel = ({ answers, modalIsOpen, isClose, topic }) => {
             </p>
             <div className="content">
                 {
-                    countResult < 8 ? (
+                    countResult < 80 ? (
                         <div className='text-center'>
                             <h4 className='text-secondary'>Rất tiếc!</h4>
                             <h5>
